@@ -40,38 +40,41 @@ li{
   background-color: black;
   width: 100%;
 }
-.locationpic{
+#pic{
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  align-content: : center;
+  padding-top: 50px;
+}
+.flexc{
   display:flex;
+
   justify-content: space-around;
-  align-items:center;
-  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-  height: 500px;
-}
-.locationpic #location{
-  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-  height: 500px;
-}
- .l-one{
-  background-color: black;
-  width: 300px;
-  height: auto;
+  padding:15px;
+
 
 }
- .l-two{
-  background-color: black;
+#one{
+  text-align: center;
+  background-color:black;
   width: 300px;
   height: auto;
+  
 
 }
- .l-three{
-  background-color: black;
+#two{
+  background-color:black;
   width: 300px;
   height: auto;
-
+}
+#three{
+  background-color:black;
+  width: 300px;
+  height: auto;
 }
 .month{
-  display:inline-flex;
-  flex-wrap: wrap;
+  display: flex;
+
 
 }
 .contact{
