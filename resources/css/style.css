@@ -9,12 +9,22 @@ body{
 .logo{
   display: flex;
   justify-content: space-between;
-  height: 50px;
   border-bottom: 1px solid seashell;
+  height: 50px;
+  margin-left: 10px;
+
+}
+.head{
+  background-color: black;
+  height: 69px;
+  position: fixed;
+  width: 100%;
 }
 li{
   display:inline-flex;
   list-style: none;
+  position: relative;
+  text-align: center;
 }
 .text{
   width: 1200px;
@@ -25,16 +35,16 @@ li{
   background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
 }
-.location{
+.locationpic{
   background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
 }
+.location{
+  background-color: black;
+}
 .month{
-  display:flex;
-  justify-content: center;
+  display:inline-flex;
   flex-wrap: wrap;
-  align-items: center;
-  width: 1000px;
 
 }
 .contact{
