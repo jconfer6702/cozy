@@ -26,21 +26,48 @@ li{
   position: relative;
   text-align: center;
 }
-.text{
-  width: 1200px;
-  text-align: center;
-  background-color: black;
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.mission{
+#mission{
   background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
 }
+#mission .text{
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
 .locationpic{
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
   background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
 }
-.location{
+.locationpic #location{
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+}
+ .l-one{
   background-color: black;
+  width: 300px;
+  height: auto;
+
+}
+ .l-two{
+  background-color: black;
+  width: 300px;
+  height: auto;
+
+}
+ .l-three{
+  background-color: black;
+  width: 300px;
+  height: auto;
+
 }
 .month{
   display:inline-flex;
