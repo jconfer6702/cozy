@@ -5,6 +5,7 @@ body{
   opacity: 0.9;
   text-align: center;
   margin-left: 10px
+
 }
 .logo{
   display: flex;
@@ -12,6 +13,7 @@ body{
   border-bottom: 1px solid seashell;
   height: 50px;
   margin-left: 10px;
+  color: white;
 
 }
 .head{
@@ -19,12 +21,18 @@ body{
   height: 69px;
   position: fixed;
   width: 100%;
+  height: auto;
+
 }
-li{
-  display:inline-flex;
+li {
+  display:inline;
   list-style: none;
-  position: relative;
-  text-align: center;
+  text-align:center;
+}
+#links :visited{
+  color: seashell;
+  font-size: 25px;
+
 }
 .flex-container{
   display: flex;
@@ -34,6 +42,7 @@ li{
 #mission{
   background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
+  width: 100%;
 }
 #mission .text{
   margin: auto;
@@ -48,19 +57,15 @@ li{
 }
 .flexc{
   display:flex;
-
-  justify-content: space-around;
-  padding:15px;
-
+  justify-content:space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
 
 }
 #one{
-  text-align: center;
   background-color:black;
   width: 300px;
   height: auto;
-  
-
 }
 #two{
   background-color:black;
@@ -73,13 +78,14 @@ li{
   height: auto;
 }
 .month{
-  display: flex;
-
+display:flex;
+flex-wrap: wrap;
+width: 1000px;
 
 }
 .contact{
   height: 200px
 }
-p{
-  text-align: left;
+h6{
+text-align: left;
 }
