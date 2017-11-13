@@ -56,17 +56,24 @@ li {
 #pic{
   background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
-  align-content: : center;
+  align-content: center;
   padding: 15px;
 }
+
+}
+.flex-container-items{
+  display:flex;
+  justify-content: center:
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .flexc{
   display:flex;
   justify-content:space-around;
   flex-direction: row;
   flex-wrap: wrap;
   padding:40px 40px;
-
-
 }
 #one{
   background-color:black;
@@ -90,14 +97,7 @@ li {
   opacity: 1;
   font-size: 22px;
 }
-.month{
-display:flex;
-flex-direction: row;
-flex-wrap: wrap;
-font-size: 22px;
 
-
-}
 .contact{
   font-size: 22px;
   height: 200px
