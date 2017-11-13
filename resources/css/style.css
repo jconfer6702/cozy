@@ -6,6 +6,7 @@ body{
   opacity: 0.9;
   text-align: center;
   margin-left: 10px
+  margin-right: 20px;
 
 }
 .logo{
@@ -61,16 +62,14 @@ li {
   align-content: center;
   padding: 15px;
 }
-
-}
 .flex-container-items {
   display:flex;
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
 }
-#item{
-  display: inline-flex;
+.item{
+  padding-bottom: 10px;
 }
 
 .flexc{
